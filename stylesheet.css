@@ -24,3 +24,14 @@ h2 {
 input, select, textarea {
     font-family: 'Monserrat', sans-serif;
 }
+
+/* Nav var */
+
+nav {
+    border: 2px solid;
+    position: sticky;
+    top: 50px;
+    left: 15%;
+    max-block-size: 250px;
+    max-inline-size: 150px;
+}

@@ -41,3 +41,11 @@ nav ul {
     padding-inline-start: 0;
     text-align: center;
 }
+
+/* Main */
+
+main {
+    border: 2px solid;
+    max-inline-size: clamp(700px, 50%, 900px);
+    margin-block-start: 50px;
+}

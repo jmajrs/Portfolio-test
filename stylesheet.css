@@ -38,14 +38,18 @@ nav {
     position: sticky;
     top: 50px;
     left: 15%;
-    max-block-size: 250px;
-    max-inline-size: 150px;
+    max-block-size: 700px;
+    max-inline-size: 250px;
 }
 
 nav ul {
     list-style: none;
     padding-inline-start: 0;
     text-align: center;
+}
+
+.mypicture {
+    max-width: inherit;
 }
 
 /* Main */

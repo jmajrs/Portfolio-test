@@ -35,3 +35,9 @@ nav {
     max-block-size: 250px;
     max-inline-size: 150px;
 }
+
+nav ul {
+    list-style: none;
+    padding-inline-start: 0;
+    text-align: center;
+}

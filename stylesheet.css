@@ -4,8 +4,8 @@ body {
     font-family: 'Monserrat', sans-serif;
     display: grid;
     grid-template-columns: auto auto;
-    margin-inline: 0;
-    margin-block: 0;
+    margin: 0;
+    background-color: #062f4f;
 }
 
 h1, h2 {
@@ -23,6 +23,12 @@ h2 {
 
 input, select, textarea {
     font-family: 'Monserrat', sans-serif;
+}
+
+/* Backgrounds */
+
+nav, main {
+    background-color: white;
 }
 
 /* Nav var */
@@ -46,12 +52,14 @@ nav ul {
 
 main {
     border: 2px solid;
-    max-inline-size: clamp(700px, 50%, 900px);
+    max-inline-size: clamp(1000px, 50%, 1250px);
     margin-block-start: 50px;
+    margin-left: 200px;
 }
 
 section, article {
     border: 2px solid;
+    border-radius: 25px;
     padding-inline: 1rem;
     margin-bottom: 5rem;
     margin-inline: 2rem;

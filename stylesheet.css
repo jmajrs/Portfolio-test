@@ -33,23 +33,52 @@ nav, main {
 
 /* Nav var */
 
+.mypicture {
+    max-width: inherit;
+}
+
 nav {
     border: 2px solid;
     position: sticky;
     top: 50px;
     left: 15%;
-    max-block-size: 700px;
+    max-block-size: 750px;
     max-inline-size: 250px;
 }
 
 nav ul {
     list-style: none;
     padding-inline-start: 0;
-    text-align: center;
+    display: grid;
+    justify-content: center;
 }
 
-.mypicture {
-    max-width: inherit;
+nav ul li {
+    margin-bottom: 1.25rem;
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Arreglar color de texto y usar clases */
+a {
+    display: block;
+    width: 100%;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+li:hover, li:focus{
+    border-radius: 15px;
+    background-color: black;
+    color: white;
+    transition: 1.25s;
+    opacity: 1;
 }
 
 /* Main */
@@ -67,6 +96,7 @@ section, article {
     padding-inline: 1rem;
     margin-bottom: 5rem;
     margin-inline: 2rem;
+    padding-bottom: 1rem;
 }
 
 section:first-child {

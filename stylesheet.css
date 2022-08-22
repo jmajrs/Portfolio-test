@@ -49,3 +49,18 @@ main {
     max-inline-size: clamp(700px, 50%, 900px);
     margin-block-start: 50px;
 }
+
+section, article {
+    border: 2px solid;
+    padding-inline: 1rem;
+    margin-bottom: 5rem;
+    margin-inline: 2rem;
+}
+
+section:first-child {
+    margin-top: 1rem;
+}
+
+section:last-child{
+    margin-bottom: 1rem;
+}

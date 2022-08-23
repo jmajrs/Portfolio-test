@@ -33,11 +33,7 @@ nav, main {
 
 /* Nav var */
 
-.mypicture {
-    max-width: inherit;
-}
-
-nav {
+.navbar {
     border: 2px solid;
     position: sticky;
     top: 50px;
@@ -46,39 +42,42 @@ nav {
     max-inline-size: 250px;
 }
 
-nav ul {
-    list-style: none;
-    padding-inline-start: 0;
-    display: grid;
-    justify-content: center;
+.mypicture {
+    max-width: inherit;
 }
 
-nav ul li {
-    margin-bottom: 1.25rem;
-    text-align: center;
+.ulist {
+    list-style: none; 
+    padding-left: 0;
+    margin-top: 0;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.ulist li {
     width: 200px;
     height: 50px;
+}
+
+.ulist a {
+    font-size: 18px;
+    font-family: sans-serif;
+    color: black;
+    text-decoration: none;
+    height: 100%;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-/* Arreglar color de texto y usar clases */
-a {
-    display: block;
-    width: 100%;
-}
 
-a:link, a:visited {
-    text-decoration: none;
-    color: black;
-}
-
-li:hover, li:focus{
-    border-radius: 15px;
-    background-color: black;
+.ulist a:hover, .ulist a:focus {
     color: white;
-    transition: 1.25s;
-    opacity: 1;
+    background-color: black;
+    opacity: 0.85;
+    border-radius: 15px;
+    transition: 0.75s;
 }
 
 /* Main */

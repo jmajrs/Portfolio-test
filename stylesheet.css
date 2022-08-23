@@ -75,10 +75,26 @@ nav, main {
 .ulist a:hover, .ulist a:focus {
     color: white;
     background-color: black;
-    opacity: 0.85;
     border-radius: 15px;
-    transition: 0.75s;
+    transition: 0.75s ease-in;
 }
+
+/* Animation navbar */
+@keyframes slideInLeft {
+    from {
+        transform: translate3d(-100%, 0, 0);
+        visibility: visible;
+    }
+
+    to {
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+.slideInLeft {
+    animation-name: slideInLeft;
+}
+
 
 /* Main */
 
